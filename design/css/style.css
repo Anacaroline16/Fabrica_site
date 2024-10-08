@@ -5,7 +5,12 @@
 body{
     background-color: #476A99;
 }
-.menu{
+.menu li{
     padding: 2%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 5%;
+    
 }
