@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de alunos </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="cd_alunos">
         <h1>Cadastro de Alunos</h1>
-        <form action="get">
-            <input type="text" nome>
+        <form action="">
+            <div class="input">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome">NOME DO ALUNO:</label>
+            </div>
+            <div class="input"></div>
+                <input type="text" name="nomeDofunci" id="nomeDofunci" class="inputUser" required>
+                <label for="nomeDofunci">NOME DO FUNCIONÁRIO :</label>
+            </div>
+            <div class="input">
+                <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" required>
+                <label for="nomeDoequi">NOME DO EQUIPAMENTO:</label>
+                <!-- Dropdown -->
+                 <div>
+                    <button type="submit">Cadastrar</button>
+                 </div>
+            </div>
+            
+            
         </form>
         
     </div>

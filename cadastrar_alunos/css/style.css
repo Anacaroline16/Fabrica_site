@@ -5,3 +5,15 @@
     margin: 0;
     font-family: Poppins;
 }
+body{
+    background-color: #476A99;
+    color: white;
+}
+.input{
+    position:relative;
+}
+.inputUser{
+    background-color: #FFFFFF;
+    opacity: 54%;
+    border: none;
+}
