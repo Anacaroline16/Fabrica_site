@@ -3,14 +3,36 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Poppins;
+    font-family:  'Poppins';
 }
 body{
     background-color: #476A99;
     color: white;
+    /* display: flex;
+    justify-content: center; */
+}
+main{
+    text-align: center;
+    width: 50rem;
+    margin: 0 auto;
+}
+form{
+    display: inline-block;
+    width: 50rem;
+}
+form input{
+    display: block;
+    padding: 1rem;
+    gap: 2rem;
+    margin: 0 0 1.5rem;
 }
 .input{
-    position:relative;
+    /* position:relative;
+    align-items: center; */
+    border: none;
+    outline: none;
+    width: 595px;
+    height: 86px;
 }
 .inputUser{
     background-color: #FFFFFF;

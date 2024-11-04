@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de alunos </title>
+    <title>ALMS FIT </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="cd_alunos">
-        <h1>Cadastro de Alunos</h1>
-        <form action="">
-            <div class="input">
-                <input type="text" name="nome" id="nome" class="inputUser" required>
-                <label for="nome">NOME DO ALUNO:</label>
-            </div>
-            <div class="input"></div>
-                <input type="text" name="nomeDofunci" id="nomeDofunci" class="inputUser" required>
-                <label for="nomeDofunci">NOME DO FUNCIONÁRIO :</label>
-            </div>
-            <div class="input">
-                <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" required>
-                <label for="nomeDoequi">NOME DO EQUIPAMENTO:</label>
-                <!-- Dropdown -->
-                 <div>
-                    <button type="submit">Cadastrar</button>
-                 </div>
-            </div>
+    <main>
+            <h1>Cadastro de Alunos</h1>
+            <form action="">
+                <div class="cd_alunos">
+                    <div class="input">
+                        <input type="text" name="nome" id="nome" class="inputUser" required placeholder="NOME DO ALUNO:">           
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nomeDofunci" id="nomeDofunci" class="inputUser" placeholder="NOME DO FUNCIONÁRIO :" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" placeholder="NOME DO EQUIPAMENTO:" required>    
+                              
+                    </div>
+                    <!-- Dropdown -->
+                    <div class="input">
+                        <select name="dropdown" id="" >
+                            <option value="" selected >  Selecione o exercicio </option>
+                            <option value=""> Cadeira Flexora</option>
+                            <option value=""> Mesa Flexora</option>
+                        </select>      
+                    </div>
+                    <div>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+
+    </main>
             
             
-        </form>
+        
         
     </div>
 </body>
