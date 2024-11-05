@@ -11,22 +11,27 @@
             <h1>Cadastro de Alunos</h1>
             <form action="">
                 <div class="cd_alunos">
-                    <div class="input">
-                        <input type="text" name="nome" id="nome" class="inputUser" required placeholder="NOME DO ALUNO:">           
-                    </div>
-                    <div class="input">
-                        <input type="text" name="nomeDofunci" id="nomeDofunci" class="inputUser" placeholder="NOME DO FUNCIONÁRIO :" required>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" placeholder="NOME DO EQUIPAMENTO:" required>    
-                              
-                    </div>
+                    <section class="coluna_1">
+                        <div class="input">
+                            <input type="text" name="nome" id="nome" class="inputUser" required placeholder="NOME DO ALUNO:">           
+                        </div>
+                        <div class="input">
+                            <input type="number" name="idEquipamento" id="idEquipamento" class="inputUser" placeholder="CÓDIGO DO EQUIPAMENTO: " required>
+                        </div>
+                        <!-- <div class="input">
+                            <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" placeholder="NOME DO EQUIPAMENTO:" required>    
+                                
+                        </div> -->
+                    </section>
                     <!-- Dropdown -->
-                    <div class="input">
-                        <select name="dropdown" id="" >
+                    <div>
+                        <select name="dropdown" class="dropdown" >
                             <option value="" selected >  Selecione o exercicio </option>
                             <option value=""> Cadeira Flexora</option>
                             <option value=""> Mesa Flexora</option>
+                            <option value=""> Leg Press 45</option>
+                            <option value=""> Supino</option>
+
                         </select>      
                     </div>
                     <div>

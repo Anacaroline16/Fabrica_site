@@ -20,7 +20,7 @@ form{
     display: inline-block;
     width: 50rem;
 }
-form input{
+form{
     display: block;
     padding: 1rem;
     gap: 2rem;
@@ -31,11 +31,29 @@ form input{
     align-items: center; */
     border: none;
     outline: none;
-    width: 595px;
-    height: 86px;
+    
 }
 .inputUser{
     background-color: #FFFFFF;
     opacity: 54%;
     border: none;
+    outline: none;
+    width: 20rem;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.coluna_1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/********** select********/
+.dropdown{
+    border: none;
+    outline: none;
+    width: 40%;
+    background-color: #ffffff;
+    opacity: 54%;
 }
