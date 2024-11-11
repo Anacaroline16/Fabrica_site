@@ -3,17 +3,40 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
+}
+:root{
+    --cor-fundo-:  #476A99;
+    --cor-fundo-botao: #05244D;
+    --cor-das-letras:#FFFFFF;
+    --cor-fundo-hover: #292E96;
 }
 body{
-    background-color: #476A99;
+    background-color: var(--cor-fundo-);
+    color: var(--cor-das-letras);
 }
+
+
 /* -----------------Botão da tela principal---------------------*/
+.primeiro h1{
+    display: flex;
+}
 .primeiro button{
-    background-color: #05244D;
+    background-color:var(--cor-fundo-botao);
     display: flex;
     align-items: center;
+    color: var(--cor-das-letras);
+    border-radius: 1.5rem;
+    border: none;
+    padding: .5rem;
+    outline: none;
+    box-shadow: 0 3 33px #ffffff;
 }
 .primeiro button img{
+    margin: auto;
+    padding: 0 .4rem 0 0;
+}
+.primeiro button:hover{
+    opacity: 54%;
 
 }
