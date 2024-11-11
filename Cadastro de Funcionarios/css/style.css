@@ -1,0 +1,16 @@
+body {
+    background-color: #476a99;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 15% auto;
+    height: 500%;
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
