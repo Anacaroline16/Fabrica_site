@@ -1,54 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin-left: 5%;
 }
 
-body{
-    background-color: #476A99;
+.contact{
+  margin-left: 2%;
 }
-
-p{
-    color: white;
+.retangulo-1Contato{
+  width: 25%;
+  display: flex;
+  margin-left: 52.5%;
+  margin-top: -33.5%;
+}
+.retangulo-2Contato{
+  width: 27%;
+  display: flex;
+  margin-top: -23.5%;
+  margin-left: 51%;
+  position: absolute;
+}
+.retangulo-3Contato{
+  width: 27%;
+  height: 47vh;
+  display: flex;
+  margin-top: -19%;
+  margin-left: 56%;
 }
 
 h1{
-    color: white;
+  color: white;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+h3{
+  color: white;
+  margin-left: 5%;
+  font-weight: 400;
+  margin-top: 1%;
+}
+.formulario{
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  margin-left: 5%;
+  margin-top: 1%;
+  border: none;
 }
 
-div{
-    color: white;
+.formulario input{
+  width: 30%;
+  padding: 0.5%;
+  border: none;
+  border-radius:2px;
+  margin-top: 0.5%;
+  background-color: rgba(255, 255, 255, 0.46);
+  border-radius: 4px;
 }
 
-.img_divpai{
-    position: relative;
-    left: 550rem;
-    box-shadow: #ffffff;
+.formulario input::placeholder{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 105%;
 }
 
-.img_divfilho{
-    position: absolute;
-    left: 550rem;
+.formulario textarea{
+  display: flex;
+  width: 30%;
+  height: 20vh;
+  padding: 0.5%;
+  border: none;
+  margin-top: 0.5%;
+  background-color: rgba(255, 255, 255, 0.46);
+  border-radius: 4px;
+  font-size: 90%;
 }
 
-.img_divfilho02{
-    position: absolute;
-    left: 550rem;
+.formulario textarea::placeholder{
+  color: rgba(255, 255, 255, 0.70);
+}
+.formulario button{
+  width: 10%;
+  font-size: 105%;
+  padding: 10px;
+  background-color: #002F6C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 9%;
+  margin-top: 2%;   
+}
+.formulario button:hover {
+  box-shadow: 0 0 20px white;
+} 
+
+.formulario input:focus, 
+.formulario textarea:focus {
+  box-shadow:  0 0 0 2px #044294;
+  outline: none;
 }
 
-button{
-    background-color: #1F4578;
-    color: white;
-    width: 275rem;
-    height: 57rem;
-}
-
-.caixadados{
-    filter: drop-shadow(0 0 1rem #ffffff);
-}
-
-.img_nome{
-    
-}
