@@ -8,30 +8,32 @@
 body{
     background-color: #476A99;
     color: white;
-    /* display: flex;
-    justify-content: center; */
-}
-main{
+    display: flex;
+    justify-content: center;
     text-align: center;
     width: 50rem;
+    height: 100vh;
     margin: 0 auto;
 }
+
 form{
-    display: inline-block;
-    width: 50rem;
-}
-form{
-    display: block;
+    display: flex;
     padding: 1rem;
     gap: 2rem;
     margin: 0 0 1.5rem 0;
 }
-.input{
+.input{   
     /* position:relative;
     align-items: center; */
     border: none;
     outline: none;
     
+}
+.input input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .inputUser{
     background-color: #FFFFFF;
@@ -48,6 +50,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 50%;
 }
 /********** select********/
 .dropdown{
