@@ -1,0 +1,136 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+    background-color:  rgb(240,255,248);
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    margin: 40px 0;
+    background: #eeeeee;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+.resultado{
+    margin: 40px 0;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    position: relative;
+    justify-content: space-between;
+    background: #84f7ff;
+    border: 1px solid #5fddfd;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    color: #000000;
+}
+.imc{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    padding: 1.5em 0;
+    font-size: 5em;
+}
+.classificacao{
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    padding: 1em 0;
+    font-size: 2em;
+
+}
+.risco{
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    padding-top: 1em;
+    font-size: 1em;
+    padding: 0 1em 1em 1em;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.input-padrao:hover{
+    transform: scale(1.02);
+    transition: 1s transform;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.1);
+    transition: 1s transform;
+}
+@media screen and (max-width: 1024px) {
+
+    .enviar{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .formulario{
+        position: relative;
+        display: block;
+
+    }
+    form,.resultado{
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 2em auto 2em auto;
+
+    }
+    .enviar{
+        width: 50%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .enviar{
+        font-size: 16px;
+    }
+    .imc{
+        font-size: 3.5em;
+    }
+    .classificacao{
+        font-size: 1.5em;
+    }
+    .risco{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .enviar{
+        font-size: 14px;
+    }
+}
