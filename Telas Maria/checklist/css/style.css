@@ -11,8 +11,8 @@ body{
 
 }
 
-#img01 img{
-    width: 60rem;
+.img01 img{
+    width: 5%;
 }
 
 h1{
@@ -35,11 +35,6 @@ h1{
     align-items: center;
 }
 
-#img01{
-    width: 100px;
-}
-
-#img04{
-    width: 100px;
-    flex-direction: row;
+.button_alte{
+    background-color: #0a3163;
 }
