@@ -12,16 +12,36 @@
     --cor-fundo-hover: #292E96;
 }
 body{
-    background-color: var(--cor-fundo-);
+    width: 100%;
+    height: 100%;
     color: var(--cor-das-letras);
+    
 }
 
 
 /* -----------------Botão da tela principal---------------------*/
-.primeiro h1{
+.primeiro-bloco{ 
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-fundo-);
 }
-.primeiro button{
+
+.pmrBloco-coluna1{
+    max-width: 50%;
+}
+.pmrBloco-coluna2 img{
+    max-width: 100%;
+    height: auto;
+
+}
+/* #img-ft-principal{
+
+} */
+.botao-pmrBloco{
     background-color:var(--cor-fundo-botao);
     display: flex;
     align-items: center;
@@ -32,12 +52,8 @@ body{
     outline: none;
     box-shadow: 0 3 33px #ffffff;
 }
-/**/
-.primeiro button img{
-    margin: auto;
-    padding: 0 .4rem 0 0;
-}
-.primeiro button:hover{
+
+.botao-pmrBloco:hover{
     opacity: 54%;
 
 }
