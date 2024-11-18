@@ -5,46 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALMS FIT </title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <main>
-            <h1>Cadastro de Alunos</h1>
-            <form action="">
-                <div class="cd_alunos">
-                    <section class="coluna_1">
-                        <div class="input">
-                            <input type="text" name="nome" id="nome" class="inputUser" required placeholder="NOME DO ALUNO:">           
+            <form  class="formulario-conteudo"  action="#">
+                <div class="conteudo">
+                    <h1 id="h1-cadastro">Cadastro de Alunos</h1>
+                    <section class="separar-colunas">
+                        <div class="coluna_1">
+                            <div class="input">
+                                <input type="text" name="nome" id="nome" class="inputUser" required placeholder="NOME DO ALUNO:">           
+                            </div>
+                            <div class="input">
+                                <input type="number" name="idEquipamento" id="idEquipamento" class="inputUser" placeholder="CÓDIGO DO EQUIPAMENTO: " required>
+                            </div>
                         </div>
-                        <div class="input">
-                            <input type="number" name="idEquipamento" id="idEquipamento" class="inputUser" placeholder="CÓDIGO DO EQUIPAMENTO: " required>
+                        <div class="coluna_2">
+                            <div class="input">
+                                <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" placeholder="NOME DO EQUIPAMENTO:" required>           
+                            </div>
+                            <div class="dropdown-series">
+                                    <div class="btn-selecione" >
+                                        <span>Selecione uma série</span>
+                                        <i id="icon_selecione_series" class="bx bx-chevron-down"></i>   
+                                    </div>
+                                    <div class="conteudo-selecione-series">
+                                        <input type="text">
+                                        <ul class="opcoes"></ul>
+                                    </div>     
+                            </div>
                         </div>
-                        <!-- <div class="input">
-                            <input type="text" name="nomeDoequi" id="nomeDoequi" class="inputUser" placeholder="NOME DO EQUIPAMENTO:" required>    
-                                
-                        </div> -->
+                        <div class="linha-3">
+                            <div class="dropdown">
+                                <div class="btn-selecione" >
+                                    <span>Selecione um exercicio</span>
+                                    <i id="icon_selecione" class="bx bx-chevron-down"></i>   
+                                </div>
+                                <div class="conteudo-selecione">
+                                    <input type="text">
+                                    <ul class="opcoes"></ul>
+                                </div>     
+                            </div>
+                        </div>
                     </section>
-                    <!-- Dropdown -->
-                    <div>
-                        <select name="dropdown" class="dropdown" >
-                            <option value="" selected >  Selecione o exercicio </option>
-                            <option value=""> Cadeira Flexora</option>
-                            <option value=""> Mesa Flexora</option>
-                            <option value=""> Leg Press 45</option>
-                            <option value=""> Supino</option>
-
-                        </select>      
-                    </div>
-                    <div>
-                        <button type="submit">Cadastrar</button>
-                    </div>
+                    <button class="botao-enviar" type="submit">
+                        <h3 id="h3-botao">Cadastrar</h3>
+                        <img src="img/_.png" alt="">
+                    </button>
+                    
+                    
                 </div>
             </form>
+            <script src="script.js" type="module"></script>
+    </main> 
 
-    </main>
-            
-            
-        
-        
-    </div>
 </body>
 </html>
