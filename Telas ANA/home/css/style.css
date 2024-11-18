@@ -4,43 +4,58 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
 :root{
     --cor-fundo-:  #476A99;
     --cor-fundo-botao: #05244D;
     --cor-das-letras:#FFFFFF;
     --cor-fundo-hover: #292E96;
+    --cor-fundo-bloco-2: rgba(217,217,217,0.1);
 }
 body{
     width: 100%;
     height: 100%;
     color: var(--cor-das-letras);
+    background-color: var(--cor-fundo-);
+    
     
 }
 
-
 /* -----------------Botão da tela principal---------------------*/
+
 .primeiro-bloco{ 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    width: 100vw;
     height: 100vh;
-    background-color: var(--cor-fundo-);
 }
 
 .pmrBloco-coluna1{
     max-width: 50%;
+    margin: 0 auto;
 }
-.pmrBloco-coluna2 img{
-    max-width: 100%;
+
+.pmrBloco-coluna2{
+    max-width: 50%;
     height: auto;
-
+    margin: 0 auto;
 }
-/* #img-ft-principal{
 
-} */
+#img-ft-principal-coluna2{
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#titulo-principal{
+    font-size: 3.5em;
+}
+
+#paragrafo-principal{
+    font-size: 2rem;
+}
+
 .botao-pmrBloco{
     background-color:var(--cor-fundo-botao);
     display: flex;
@@ -50,10 +65,57 @@ body{
     border: none;
     padding: .5rem;
     outline: none;
-    box-shadow: 0 3 33px #ffffff;
+    box-shadow: 0 3px 33.4px #ffffff;
+    margin: 10px 2px 0 10px;
+}
+
+#txt-botao{
+    padding: 5px;
 }
 
 .botao-pmrBloco:hover{
     opacity: 54%;
+}
 
+/*   BLOCO  2*/
+
+.segundo-bloco{
+    text-align: center;
+    background-color: var(--cor-fundo-bloco-2);
+    height: 60vh;
+} 
+
+.segundo-bloco h1{
+    color:var(--cor-das-letras);
+    text-align: center;
+    padding: 1rem;
+ 
+}
+
+.imgs_txt{
+    display: inline-block;
+   
+}
+
+.quadrinho_1{
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    padding: 4.5rem;
+}
+
+
+/**  BLOCO  3 **/
+
+.terceiro-bloco{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    padding: 2rem;
+}
+
+.imgs{
+    align-items: center;
+    margin: 1.5rem;
+    /* padding: 1rem; */
 }
