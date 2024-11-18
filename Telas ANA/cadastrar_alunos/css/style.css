@@ -172,7 +172,6 @@ form{
     border: none;
     padding: .5rem;
     outline: none;
-    box-shadow: 0 3px 33.4px #ffffff;
     height: 3rem;
     margin: auto;
 
@@ -185,5 +184,6 @@ form{
     padding: .2rem;
 }
 .botao-enviar:hover{
-    opacity: 54%
+    box-shadow: 0 3px 33.4px #ffffff;
+
 }
