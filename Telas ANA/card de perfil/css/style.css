@@ -12,6 +12,8 @@
     --cor-fundo-botao-salvar: rgba(3, 128, 14, 0.8);
     --cor-das-letras:#FFFFFF;
     --cor-fundo-card: rgba(217, 217, 217, 0.4);
+    --cor-de-fundo-dos-input: rgba(31, 69, 120, 0.2);
+    --cor-do-fundo-da-data: rgba(217, 217, 217, 0.5);
 }
 
 body{
@@ -20,7 +22,9 @@ body{
     color: var(--cor-das-letras);
     background-color: var(--cor-fundo-);
 
-}
+} 
+/* formulario  */
+
 .formulario-usuario{
     width: 100%;
     height: 100%;
@@ -28,26 +32,28 @@ body{
     justify-content: center;
     margin: 0 auto;
     flex-direction: column;
-}
+} 
+
 #h1-editar{
     text-align: center;
     margin-bottom: 5rem;
 }
+
 .container-centralizar{
     background-color: var(--cor-fundo-card);
     margin: 0 auto;
-    width: 50%;
-    height: 60%;
+    width: 35%;
+    height: 65%;
     border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 #foto-perfil{
     display: flex;
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    /* height: 25%; */
     border: 4px solid #476A99;
     padding: 10px;
     margin: 0 auto;
@@ -57,3 +63,78 @@ body{
 }
 
 
+/* inputs    */
+
+.inputUser{
+    background-color: var(--cor-de-fundo-dos-input);
+    border: none;
+    outline: none;
+    padding: .5rem;
+    border-radius: .8rem;
+    margin: 0 0 .5rem  0;
+    color: var(--cor-das-letras);
+}
+
+.inputUser::placeholder{
+    color: var(--cor-das-letras);
+}
+
+/* coluna 1*/
+
+.coluna-1 {
+    flex-direction: row;
+}
+#nome{
+    margin: 0 .5rem .5rem  0;
+}
+
+/*coluna 2*/
+
+.coluna-2 input{
+    width: 100%;
+}
+
+/*coluna 3*/
+
+.coluna-3{
+    display: flex;
+    flex-direction: column;
+}
+
+/*datas*/
+
+.datas h4{
+    font-size: 1rem;
+}
+
+
+#data{
+    width: 100%;
+    color: var(--cor-das-letras);
+    background-color:  var(--cor-do-fundo-da-data);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: .8rem;
+    margin: .5rem 0;
+}
+
+/* Botões  */
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+#cancelar{
+    margin-right: 10rem;
+    background-color: var(--cor-fundo-botao-cancelar);
+    color: var(--cor-das-letras);
+    border: none;
+    outline: none;
+    padding: .5rem;
+    border-radius: 2rem;
+}

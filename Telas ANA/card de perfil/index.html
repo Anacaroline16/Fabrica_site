@@ -15,25 +15,28 @@
                 <img id="foto-perfil" src="img/Group.png" alt="Foto do usuário">
                 <div class="coluna-1">
                     <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome(Apelido):">
-                </div>
-                <div class="coluna-2">
                     <input type="text" name="genero" id="genero" class="inputUser" required placeholder="Gênero:">
                 </div>
-                <input type="email" name="email" id="email" class="inputUser" required placeholder="E-mail:">
+                <div class="coluna-2">
+                    <input type="email" name="email" id="email" class="inputUser" required placeholder="E-mail:">
+                </div> 
                 <div class="datas">
                     <h4>Data de Nascimento:</h4>
                    <input type="date" name="data" id="data">
                 </div>
-                <input type="number" name="cpf"
-                id="cpf" class="inputUser" placeholder="CPF:">
-                <input type="number" name="rg"
-                id="rg" class="inputUser" placeholder="RG:">
-                <input type="text" name="endereco"
-                id="endereco" class="inputUser" placeholder="Endereço:">
-
-
+                <div class="coluna-3">
+                    <input type="number" name="cpf"
+                    id="cpf" class="inputUser" placeholder="CPF:">
+                    <input type="number" name="rg"
+                    id="rg" class="inputUser" placeholder="RG:">
+                    <input type="text" name="endereco"
+                    id="endereco" class="inputUser" placeholder="Endereço:">
+                </div>
             </div>
-
+        </div>
+        <div class="botoes">
+            <button type="#" id="cancelar">Cancelar alterações</button> <!-- definir  a ação do botão  -->
+            <button type="submit" id="salvar">Salvar</button>
         </div>
     </form>
     
