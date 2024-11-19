@@ -15,7 +15,13 @@
                 <img id="foto-perfil" src="img/Group.png" alt="Foto do usuário">
                 <div class="coluna-1">
                     <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome(Apelido):">
-                    <input type="text" name="genero" id="genero" class="inputUser" required placeholder="Gênero:">
+                    <select name="genero" id="genero"  class="inputUser"  >
+                        <option value="#" selected hidden >Gênero</option>
+                        <option value="F" >Feminino</option>
+                        <option value="M">Masculino</option>
+                        <option value="outro">Outro</option>
+                        <option value="N_dizer">Prefiro não dizer</option>
+                    </select>
                 </div>
                 <div class="coluna-2">
                     <input type="email" name="email" id="email" class="inputUser" required placeholder="E-mail:">
