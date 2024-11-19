@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.aluno{
+  width: 75%;
+  margin-top:13% ;
+  margin-left: 13%;
+}
+.titulo{
+  text-align: center;
+  margin-top: 2%;
+  color: white;
+}
+.container-area1{
+  margin-left: 10%;
+}
+.container-area{
+  background-color: rgba(31, 69, 120, 0.7);
+  width: 20%;
+  height: 400px;
+  margin-top: 5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content:flex-start;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(131, 0, 211, 0.75);
+}
+.nomeAluno{
+  font-size: 85%;
+  color: white;
+  font-weight: 500;
+  margin-top: 13%;
+}
+.dataAluno{
+  color: white;
+  font-size: 85%;
+  font-weight: 400;
+  display: flex;
+  margin-left: 105%;
+  width: 100%;
+  margin-top: -60%;
+}
+.notificacao{
+  width: 3.5%;
+  height: 4%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  transition: box-shadow 0.3s;
+}
+.container-area2{
+  font-size: 75%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.27);
+  margin-top: -10%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 20%; 
+  height: 192px;
+  margin-left: 5%;
+  text-align: justify;
+}
+.borda2{
+  border: 1px solid white;
+  width: 99.5%;
+  border-radius: 4px;
+}
+.container-area2 > h3{
+  padding: 2%;
+}
+.corDiferente{
+  color: #073877;
+  padding: 1%;
+}
+.editarInfo{
+  color: white;
+  font-size: 65%;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  transition: color 0.5s ease;
+}
+.editarInfo:hover{
+  color: rgba(27, 9, 126, 0.808);
+}
+.container-area3{
+  background-color: rgba(31, 69, 120, 0.7);
+  width: 45%;
+  border-radius: 20px;
+  height: 250px;
+  margin-left: 42%;
+  margin-top: -23%;
+}
+.block, .calendario{
+  width: 3.2%;
+  height: 9%;
+  margin-top: 4.5%;
+  margin-left: 5%;
+}
+.lesoes, .data, .obj, .frequencia{
+  color: white;
+  font-weight: 400;
+  font-size: 95%;
+  margin-left: 10.5%;
+  margin-top: -3.9%;
+}
+.obj{
+  margin-top: -24%;
+  margin-left: 50%;
+}
+.frequencia{
+  margin-top: 4.5%;
+  margin-left: 50%;
+}
+.imc{
+  color: white;
+  font-weight: 500%;
+  font-size: 110%;
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.altura, .peso, .resultIMC{
+  color: white;
+  font-weight: 400;
+  padding: 6%;
+  font-size: 85%;
+  margin-left: 7%;
+  margin-top: -12%;
+}
+.peso{
+  margin-top: -8%;
+  margin-left: 9%;
+}
+.detalhe{
+  margin-left: 27%;
+  display: flex;
+  margin-top: -14%;
+}
+.resultIMC{
+  margin-left: 25%;
+  margin-top: -11%;
+}
+.container-area4{
+  border: 1px solid #8300D3;
+  width: 20%;
+  border-radius: 20px;
+  margin-left: 35%;
+  padding: 9px;
+  text-align:justify;
+  margin-top: 1%;
+}
+.diferente{
+  font-weight:600 ;
+  color: white;
+}
+
+.nomeEmail, .celular, .emergencia{
+  color: rgba(255, 255, 255, 0.842);
+  font-weight: 500;
+  padding: 4px;
+  font-size: 85%;
+}
+.frase{
+  color: white;
+  font-size: 130%;
+  font-weight: 600;
+  margin-left: 62%;
+  margin-top: -7%;
+}
