@@ -28,7 +28,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 80vh;
 }
 
 .pmrBloco-coluna1{
@@ -65,7 +65,6 @@ body{
     border: none;
     padding: .5rem;
     outline: none;
-    box-shadow: 0 3px 33.4px #ffffff;
     margin: 10px 2px 0 10px;
 }
 
@@ -74,7 +73,7 @@ body{
 }
 
 .botao-pmrBloco:hover{
-    opacity: 54%;
+    box-shadow: 0 3px 33.4px #ffffff;
 }
 
 /*   BLOCO  2*/

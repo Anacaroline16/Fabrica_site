@@ -147,8 +147,14 @@ body{
     background-color: var(--cor-fundo-botao-cancelar);
     
 }
+#cancelar:hover{
+    box-shadow: 0 3px 33.4px #ffffff;
+}
 
 #salvar{
     background-color: var(--cor-fundo-botao-salvar)
     
+}
+#salvar:hover{
+    box-shadow: 0 3px 33.4px #ffffff;
 }
