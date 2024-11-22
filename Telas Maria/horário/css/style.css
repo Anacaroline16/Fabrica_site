@@ -10,21 +10,22 @@ h1{
   font-weight: 600;
   text-align: center;
   margin-top: 3%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 .retangulo-1{
   width: 30%;
   height: 52vh;
   display: flex;
   margin-left: 15%;
-  margin-top: 2%;
+  margin-top: 6%;
 }
 .retangulo-2{
   width: 28%;
   height: 45vh;
   display: flex;
   margin-left: 43%;
-  margin-top: -25.8%;
+  margin-top: -24.8%;
+  margin-bottom: 2%;
 }
 .retangulo-3{
   width: 30%;
@@ -33,24 +34,27 @@ h1{
   position: absolute;
   margin-left: 44%;
   margin-top: -21%;
+  margin-bottom: 10%;
 }
 .retangulo-4{
   width: 25%;
   height: 52vh;
   display: flex;
   margin-left: 50%;
-  margin-top:-21.9% ;
+  margin-top:-21.9%;
+  margin-bottom: 7%;
 }
 .retangulo-5{
   width: 25%;
   margin-left: 17%;
   height: 45vh;
   margin-top: -52%;
+  margin-bottom: 10%;
 }
 .horarios{
   color: white;
   margin-left: 17%;
-  margin-top: -22%;
+  margin-top: -28%;
   text-align: justify;
   border: 1px solid #1F4578;
   width: 25%;
@@ -65,9 +69,11 @@ h1{
   font-size: 120%;
   font-weight: 400;
   margin-left: 0.5%;
+  
 }
 .time{
   width: 2%;
   margin-left: 16%;
   margin-top: -1.5%;
+  margin-bottom: 5%;
 }
