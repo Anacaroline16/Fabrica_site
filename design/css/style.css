@@ -80,7 +80,7 @@ li {
 }
 .colunas{
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 15%;
     margin-bottom: 2rem;
 }
@@ -88,15 +88,17 @@ li {
     color: var(--cor-das-letras);
     margin-bottom: 15px;
     font-size: 1rem;
+    
 }
 .colunas ul li a{
     color: var(--cor-das-letras);
+
 }
+
 
 .colunas ul li a:hover{
     color: rgb(82, 82, 230);
 }
-
 
 
 
@@ -137,4 +139,20 @@ li {
     font-size: 1.2rem;
     text-align: center;
     margin: 5px;
+}
+
+
+
+
+/*icones*/
+.icones-footer i{
+    color: var(--cor-das-letras);
+    font-size: 2rem ;
+    padding: .5rem;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.icones-footer i:hover{
+    color: rgb(82, 82, 230);
 }
