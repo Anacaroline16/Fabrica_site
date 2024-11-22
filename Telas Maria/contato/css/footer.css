@@ -23,9 +23,12 @@ li {
 
 .fundo{
     background-color: var(--cor-de-fundo-do-footer);
+    
+    
+}
+.fundo_links{
     display: flex;
     justify-content: space-between;
-    position: fixed;
     bottom: 0;
     width: 100%;
     max-width: 100%;
@@ -56,17 +59,6 @@ li {
 
 
 
-/*linha*/
-
-.borda-footer{
-    border-bottom: 2px solid white;
-    width: 100%;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 15px;
-
-}
 .parte-fundo-footer{
     display: flex;
     justify-content: center;
@@ -81,18 +73,17 @@ li {
 
 .fundo-escuro-footer{
     background-color:#15365F;
-    position: fixed;
     width: 100%;
     bottom: 0;
     margin-top: 15px;
-    height: 5%;
+    height: 7%;
 }
 
 .fundo-escuro-footer p{
     color: var(--cor-das-letras);
     font-size: 1.2rem;
     text-align: center;
-    margin: 5px;
+    padding: 5px;
 }
 
 
@@ -102,9 +93,9 @@ li {
 .icones-footer i{
     color: var(--cor-das-letras);
     font-size: 2rem ;
-    padding: .5rem;
+    padding:5px;
     text-align: center;
-    margin: 0 3px;
+    
 }
 
 .icones-footer i:hover{
