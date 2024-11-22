@@ -39,10 +39,10 @@ li {
 }
 .ancoras {
     display: flex;
+    justify-content: center;
     gap: 1em;
     font-size: 150%;
-    
-    margin-left: 45%;
+    margin-left: 35%;
 
 }
 .ancoras ul li {
