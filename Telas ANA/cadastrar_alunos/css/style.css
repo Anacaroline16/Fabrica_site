@@ -16,21 +16,19 @@
 body{
     background-color: #476A99;
     color: var(--cor-das-letras);
-    display: flex;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
     
 }
 .formulario-conteudo{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    margin-top: 5rem;
 }
 
-/* .conteudo{
-    margin-top: 20%;
-} */
 /*** SEPARAR AS COLUNAS***/
 .separar-colunas{
     padding: 2% 15%;
@@ -86,6 +84,7 @@ form{
 }
 .inputUser::placeholder{
     color: var(--cor-das-letras);
+    font-family: 'Poppins';
 }
 
 /********** select********/
@@ -109,6 +108,7 @@ form{
 .btn-selecione span{
     width: 100%;
     margin: auto;
+    font-family: 'Poppins';
 
 }
 

@@ -50,6 +50,7 @@ li {
 }
 .ancoras li a{
     color: white;
+    text-shadow: 0 4px 4px #1C1B1F ;
 }
 .ancoras a:hover {
     color:#0F1A7D;
