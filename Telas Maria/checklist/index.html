@@ -1,109 +1,133 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela do CheckList</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./js/script.js">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="https://kit.fontawesome.com/df40682070.js" crossorigin="anonymous"></script>
+  <title>Check List</title>
 </head>
+
+
+<header>
+  <nav>
+    <div class="menu">
+      <div><img src="img/Sobre (12) 2.png" alt=""></div>
+      <div class="ancoras">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Horários</a></li>
+          <li><a href="#">Treinos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <img src="img/Sobre (13) 2.png" class="area">
+    </div>
+  </nav>
+  <div class="borda"></div>
+</header>
+
+<html>
+
 <body>
-    <main>
+  <main>
+    <h1>CHECKLIST</h1>
+    <div class="button_alter">
+      <button type="submit">*Alteração apenas funcionários</button>
+    </div>
+    <div class="checklist-container">
+      <ul class="checklist">
+        <li><input type="checkbox" id="item1"><label for="item1">Leg press 45°<p class="center">Séries: 4 Rep: 12 <img src="./img/ALMS FIT 1.png" class="img1"></label></li>
+        <li><input type="checkbox" id="item2"><label for="item2">Adutor <br>Séries: 4 Rep: 15 <img src="./img/27 1.png" class="img2"></label></li>
+        <li><input type="checkbox" id="item3"><label for="item3">Panturilha <br>Séries: 4 Rep: 12 <img src="./img/26 1.png" class="img3"></label></li>
+        <li><input type="checkbox" id="item4"><label for="item4">Agachamento <br>Séries: 4 Rep: 12 <img src="./img/28 1.png" class="img4"></label></li>
+        <li><input type="checkbox" id="item5"><label for="item4">Flexora <br>Séries: 4 Rep: 12 <img src="./img/29 2.png" class="img5"></label></li>
+      </ul>
+
+      <ul class="checklist1">
+        <li><input type="checkbox" id="item6"><label for="item6">Rosca Unilateral<br>Séries: 2 Rep: 12 <img src="./img/30 1.png" class="img6"></label></li>
+        <li><input type="checkbox" id="item7"><label for="item7">Abdutor <br>Séries: 4 Rep: 15 <img src="./img/31 1.png" class="img7"></label></li>
+        <li><input type="checkbox" id="item8"><label for="item8">Remada <br>Séries: 4 Rep: 12 <img src="./img/33 1.png" class="img8"></label></li>
+        <li><input type="checkbox" id="item9"><label for="item9">Supino <br>Séries: 4 Rep: 12 <img src="./img/32 1.png" class="img9"></label></li>
+        <li><input type="checkbox" id="item10"><label for="ite10">Tríceps <br>Séries: 4 Rep: 12 <img src="./img/34 1.png" class="img10"></label></li>
+      </ul>
+
+    </div>
+    <button onclick="desmarcarTudo()">Desmarcar Tudo</button>
+    <script>
+      function desmarcarTudo() {
+        const checkboxes = document.querySelectorAll('.checklist-container input[type="checkbox"]');
+        checkboxes.forEach(checkbox => checkbox.checked = false);
+      }
+    </script>
+  </main>
+  <footer>
+    <div class="fundo">
+        <div class="colunas">
+            <h4  class="h4-colunas">Conheça</h4>
+            <ul>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Nossa Equipe</a></li>
+                <li><a href="">História/Propósito</a></li>
+            </ul>
+            
+        </div>
+        <div class="colunas">
+            <h4  class="h4-colunas">Saiba Mais </h4>
+            <ul>
+                <li><a href="">Horário de funcionamento</a></li>
+                <li><a href="">Blog com dicas de treinos e nutrição</a></li>
+            </ul>
+        </div>
+        <div class="colunas">
+            <h4 class="h4-colunas">Entre em contato </h4>
+            <ul>
+                <li><a href="../../Telas Maria/contato/index.html">Contato</a></li>
+                <li><a href="">E-mail oficial</a></li>
+                <li><a href="https://web.whatsapp.com/">WhatsApp</a></li>
+                <li> <a href="https://www.google.com/maps/d/u/0/viewer?mid=1ADwq4SUaCVgrfH6Q__1TxsjlTXh2vOQ&ll=-12.703483735978107%2C-60.12240861565493&z=15">Localização</a></li>
+            </ul>  
+        </div>
+        <div class="colunas">
+            <h4 class="h4-colunas" >Nos siga nas redes sociais </h4>
+            <!-- <ul> -->
+                <div class="icones-footer">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                
+            <!-- </ul>   -->
+        </div>
+        <div class="fundo-escuro-footer">
+            <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+            
+            <p><i class="fa-solid fa-copyright"></i> 2024 ALMS Fit</p>
+            
+        </div>
         
-        <div class="button_alter">
-            <button type="submit">*alteração apenas funcionários</button>
-        </div>
 
-        <h1>CheckList</h1>
-        <div id="img_check"></div>
-            <img src="img/ALMS FIT (2).png" alt="ckeckzinho">
-        </div>
 
-        <div class="caixa01">
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Leg Press 45º Séries:2 Rep: 12</label>
-                <img src="img/carinhajjj2.png" alt="leg press">
-                </div>
-            </fieldset>
+    </div>
+    
 
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Adutor Séries:4 Rep:15</label>
-                <img src="img/smfs.png" alt="adutorzinho">
-                </div>
-            </fieldset>
+    
+    
+</footer>        
 
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Panturrilha Séries:4 Rep:12</label>
-                <img src="img/panturrilhasona.png" alt="panturrilha">
-                </div>
-            </fieldset>
 
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Agachamento Séries:4 Rep:12</label>
-                <img src="img/carinha_agacha.png" alt="agachamento">
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Búlgaro Séries:4 Rep:12</label>
-                <img src="img/bulgaro.png" alt="bulgaro">
-                </div>
-            </fieldset>
-        </div>
-
-        <div class="caixa02">
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Rosca Unilateral Séries:2 Rep:12</label>
-                <img src="img/rosca unilatetral.png" alt="rosca unilateral">
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Abdutor Séries:4 Rep:15</label>
-                <img src="img/adutor.png" alt="abdutor">
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Remada Séries:4 Rep:8</label>
-                <img src="img/jvmskl.png" alt="remada">
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Supino Séries:4 Rep:8</label>
-                <img src="img/ppppp.png" alt="supino">
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <div class="img01">
-                    <input type="checkbox" id="caixinha" name="caixinha123">
-                    <label for="caixinha">Tríceps Séries:4 Rep:12</label>
-                <img src="img/lllll.png" alt="triceps">
-                </div>
-            </fieldset>
-        </div>
-    <img src="./img/" class="retangulo-1Contato">
-    <a href="https://www.google.com/maps/d/u/0/edit?mid=1ADwq4SUaCVgrfH6Q__1TxsjlTXh2vOQ&usp=sharing" target="_blank"><img src="./img/Screenshot 2024-09-27 155751.png" class="retangulo-2Contato"></a>
-    <img src="./img/Rectangle 91 (2).png" class="retangulo-3Contato">        
-    </main>
 </body>
+
+
+
 </html>
