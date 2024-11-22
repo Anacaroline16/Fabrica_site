@@ -84,6 +84,7 @@ form{
 }
 .inputUser::placeholder{
     color: var(--cor-das-letras);
+    font-family: 'Poppins';
 }
 
 /********** select********/
@@ -107,6 +108,7 @@ form{
 .btn-selecione span{
     width: 100%;
     margin: auto;
+    font-family: 'Poppins';
 
 }
 
