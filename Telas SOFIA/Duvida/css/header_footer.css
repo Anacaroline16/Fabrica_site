@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
@@ -65,4 +66,85 @@ li {
     align-items: center;
     margin-left: 5%;
     margin-top: -1%;
+}
+/*---------------FOOTER------------------*/
+.fundo{
+    background-color: var(--cor-de-fundo-do-footer);
+    margin-top: 5%;
+    
+}
+.fundo_links{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+
+    
+}
+.colunas{
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 15%;
+    margin-bottom: 2rem;
+}
+.h4-colunas{
+    color: var(--cor-das-letras);
+    margin-bottom: 15px;
+    font-size: 1rem;
+    
+}
+.colunas ul li a{
+    color: var(--cor-das-letras);
+
+}
+
+
+.colunas ul li a:hover{
+    color: rgb(82, 82, 230);
+}
+
+
+
+.parte-fundo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    
+    
+}
+
+
+
+.fundo-escuro-footer{
+    background-color:#15365F;
+    width: 100%;
+    bottom: 0;
+    margin-top: 5px;
+    height: 7%;
+}
+
+.fundo-escuro-footer p{
+    color: var(--cor-das-letras);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+/*icones*/
+.icones-footer i{
+    color: var(--cor-das-letras);
+    font-size: 2rem ;
+    padding:5px;
+    text-align: center;
+    
+}
+
+.icones-footer i:hover{
+    color: rgb(82, 82, 230);
 }

@@ -17,13 +17,14 @@
   width: 25%;
   display: flex;
   margin-left: 52.5%;
-  margin-top: -33.5%;
+  margin-top: -41.5%;
 }
 .retangulo-2Contato{
   width: 27%;
   display: flex;
   margin-top: -23.5%;
   margin-left: 51%;
+  margin-bottom: 7%;
   position: absolute;
 }
 .retangulo-3Contato{
@@ -32,6 +33,7 @@
   display: flex;
   margin-top: -19%;
   margin-left: 56%;
+  margin-bottom: 7%;
 }
 
 h1{
@@ -96,6 +98,7 @@ h3{
   border-radius: 30px;
   margin-left: 9%;
   margin-top: 2%;   
+  margin-bottom: 13%;
 }
 .formulario button:hover {
   box-shadow: 0 0 20px white;
