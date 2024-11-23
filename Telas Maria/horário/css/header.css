@@ -1,13 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     padding: 0;
     margin: 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
+    /* box-sizing: border-box; */
 }
 body{
     background-color: #476A99;
+    overflow-x: hidden;
+}
+:root{
+    --cor-de-fundo-do-footer:#1F4578; 
+    --cor-das-letras:white; 
 }
 a {
     text-decoration: none;
@@ -15,6 +20,7 @@ a {
 li {
     list-style: none;
 }
+/*----------------------------------------------------MENU---------------------------------------------------------------------------------------------------------------------------*/
 .menu{
     display: flex;
     align-items: center;
@@ -32,9 +38,10 @@ li {
 }
 .ancoras {
     display: flex;
+    justify-content: center;
     gap: 1em;
     font-size: 150%;
-    margin-left: 45%;
+    margin-left: 35%;
 
 }
 .ancoras ul li {
@@ -42,6 +49,7 @@ li {
 }
 .ancoras li a{
     color: white;
+    text-shadow: 0 4px 4px #1C1B1F ;
 }
 .ancoras a:hover {
     color:#0F1A7D;
