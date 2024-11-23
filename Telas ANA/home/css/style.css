@@ -66,7 +66,7 @@ body{
     font-size: 2rem;
 }
 
-.botao-pmrBloco{
+.botao-pmrBloco {
     background-color:var(--cor-fundo-botao);
     display: flex;
     align-items: center;
@@ -77,10 +77,10 @@ body{
     outline: none;
     margin: 10px 2px 0 10px;
 }
-
-#txt-botao{
-    padding: 5px;
+.botao-pmrBloco  img{
+    padding: 2px;
 }
+
 
 .botao-pmrBloco:hover{
     box-shadow: 0 3px 33.4px #ffffff;
